@@ -35,7 +35,7 @@ header > nav > .btn > button {
   font-size: 20px;
   font-weight: 600;
 }
-main {
+main > section {
   margin: 74px 0px;
 }
 
@@ -92,17 +92,14 @@ main {
 }
 .current-target-header h1 {
   color: rgb(13, 19, 33);
-
   font-size: 32px;
   font-weight: 800;
 }
 .current-target-header p {
   color: rgb(13, 19, 33);
-
   font-size: 16px;
   font-weight: 400;
   opacity: 0.7;
-
   text-align: center;
 }
 
@@ -111,7 +108,7 @@ main {
   justify-content: space-between;
   gap: 24px;
 }
-.card {
+.current-target-footer .card {
   padding: 40px;
   border-radius: 16px;
   display: flex;
@@ -119,8 +116,8 @@ main {
   justify-content: center;
   gap: 27px;
 }
-.card a {
-  text-decoration: none;
+.current-target-footer .card a {
+
   font-size: 16px;
   font-weight: 700;
   color: black;
@@ -133,4 +130,53 @@ main {
 }
 .js-card {
   background: rgba(255, 223, 0, 0.05);
+}
+
+/* My Next target section  */
+.next-target-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.next-target-header h1 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+}
+.next-target-header p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  text-align: center;
+}
+
+.next-target-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+}
+.next-target-footer > .card {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  padding: 40px;
+  background: rgb(255, 255, 255);
+}
+
+.next-target-footer > .card > div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.next-target-footer .card a {
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
 }
