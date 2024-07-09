@@ -255,3 +255,40 @@ main > section {
 .inspiration-footer {
   height: 614px;
 }
+
+/* Support section  */
+
+.support-container {
+  background-image: url(./../images/handshake.jpg);
+  padding: 64px 48px 64px 48px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  height: 313px;
+ background-color: rgba(0, 0, 0, 0.445);
+  background-blend-mode: overlay;
+}
+.support-container h1 {
+  font-size: 32px;
+  color: white;
+}
+.support-container p {
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: white;
+  }
+.support-container input ,button{
+    padding: 19px 20px 19px 20px;
+
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+.support-container input{
+    width: 548px;
+}
+
