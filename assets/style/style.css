@@ -32,6 +32,10 @@
   text-align: center;
 }
 
+main > section {
+  margin: 74px 0px;
+}
+
 /* Shear code end here  */
 
 header > nav {
@@ -62,10 +66,8 @@ header > nav > .btn > button {
   font-size: 20px;
   font-weight: 600;
 }
-main > section {
-  margin: 74px 0px;
-}
 
+/* Hero sections  */
 .hero-section {
   background-image: url(./../images/Hero-bg.png);
   background-position: center;
@@ -105,7 +107,99 @@ main > section {
   background: rgb(13, 19, 33);
 }
 
-/* My target section  */
+/* Why Web Development section  */
+.why-webdev-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    border-radius: 16px;
+    padding: 80px;
+    background: rgba(13, 19, 33, 0.02);
+  }
+  .why-webdev-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  
+  .why-webdev-container .content-section {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .why-webdev-container .content-section h1 {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .why-webdev-container .content-section p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .why-webdev-container .content-section button {
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px 12px 20px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .why-webdev-card-1 {
+    padding: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 16px;
+    gap: 30px;
+    background: linear-gradient(
+      90deg,
+      rgb(255, 255, 255),
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+  
+  .why-webdev-card-2 {
+    padding: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 16px;
+    gap: 30px;
+    background: linear-gradient(
+      270deg,
+      rgb(255, 255, 255),
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+  
+  .why-webdev-card-3 {
+    padding: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 16px;
+    gap: 30px;
+    background: linear-gradient(
+      90deg,
+      rgb(255, 255, 255),
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+  
+  /* Inspiration sections  */
+  .inspiration-container {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+  .inspiration-footer {
+    height: 614px;
+  }
+
+/* My current target section  */
 .current-target-container {
   display: flex;
   flex-direction: column;
@@ -170,97 +264,6 @@ main > section {
   color: black;
 }
 
-/* Why Web Development section  */
-.why-webdev-container {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-  border-radius: 16px;
-  padding: 80px;
-  background: rgba(13, 19, 33, 0.02);
-}
-.why-webdev-footer {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-}
-
-.why-webdev-container .content-section {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-}
-.why-webdev-container .content-section h1 {
-  color: rgba(13, 19, 33, 0.7);
-  font-size: 24px;
-  font-weight: 700;
-}
-.why-webdev-container .content-section p {
-  color: rgb(13, 19, 33);
-  font-size: 16px;
-  font-weight: 400;
-}
-.why-webdev-container .content-section button {
-  box-sizing: border-box;
-  border: 1px solid rgb(13, 19, 33);
-  opacity: 0.7;
-  padding: 12px 20px 12px 20px;
-  color: rgb(13, 19, 33);
-  font-size: 20px;
-  font-weight: 600;
-}
-
-.why-webdev-card-1 {
-  padding: 48px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-radius: 16px;
-  gap: 30px;
-  background: linear-gradient(
-    90deg,
-    rgb(255, 255, 255),
-    rgba(255, 255, 255, 0) 100%
-  );
-}
-
-.why-webdev-card-2 {
-  padding: 48px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-radius: 16px;
-  gap: 30px;
-  background: linear-gradient(
-    270deg,
-    rgb(255, 255, 255),
-    rgba(255, 255, 255, 0) 100%
-  );
-}
-
-.why-webdev-card-3 {
-  padding: 48px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-radius: 16px;
-  gap: 30px;
-  background: linear-gradient(
-    90deg,
-    rgb(255, 255, 255),
-    rgba(255, 255, 255, 0) 100%
-  );
-}
-
-/* Inspiration sections  */
-.inspiration-container {
-  display: flex;
-  flex-direction: column;
-  gap: 48px;
-}
-.inspiration-footer {
-  height: 614px;
-}
 
 /* Support section  */
 
@@ -271,7 +274,7 @@ main > section {
   background-repeat: no-repeat;
   border-radius: 16px;
   height: 313px;
- background-color: rgba(0, 0, 0, 0.445);
+  background-color: rgba(0, 0, 0, 0.445);
   background-blend-mode: overlay;
 }
 .support-container h1 {
@@ -279,35 +282,35 @@ main > section {
   color: white;
 }
 .support-container p {
-    color: rgb(255, 255, 255);
-    opacity: 0.7;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0%;
-    text-align: center;
-    color: white;
-  }
-.support-container input ,button{
-    padding: 19px 20px 19px 20px;
-
-    border-radius: 8px;
-    background: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  opacity: 0.7;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: white;
 }
-.support-container input{
-    width: 548px;
-}
+.support-container input,
+button {
+  padding: 19px 20px 19px 20px;
 
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+}
+.support-container input {
+  width: 548px;
+}
 
 /* Footer section  */
-footer{
-    border-radius: 16px;
+footer {
+  border-radius: 16px;
 
-background: rgba(13, 19, 33, 0.03);
+  background: rgba(13, 19, 33, 0.03);
 }
-footer> .footer-container{
-    display: flex;
-    padding: 32px 0px;
-    align-items: center;
-    justify-content: space-between;
+footer > .footer-container {
+  display: flex;
+  padding: 32px 0px;
+  align-items: center;
+  justify-content: space-between;
 }
