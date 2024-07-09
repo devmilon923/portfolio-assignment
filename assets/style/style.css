@@ -12,6 +12,28 @@
   margin: 0 auto;
 }
 
+.section-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.section-header h1 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+}
+.section-header p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  text-align: center;
+}
+
+/* Shear code end here  */
+
 header > nav {
   display: flex;
   justify-content: space-between;
@@ -83,25 +105,6 @@ main > section {
   flex-direction: column;
   gap: 30px;
 }
-.current-target-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-}
-.current-target-header h1 {
-  color: rgb(13, 19, 33);
-  font-size: 32px;
-  font-weight: 800;
-}
-.current-target-header p {
-  color: rgb(13, 19, 33);
-  font-size: 16px;
-  font-weight: 400;
-  opacity: 0.7;
-  text-align: center;
-}
 
 .current-target-footer {
   display: flex;
@@ -117,7 +120,6 @@ main > section {
   gap: 27px;
 }
 .current-target-footer .card a {
-
   font-size: 16px;
   font-weight: 700;
   color: black;
@@ -133,25 +135,6 @@ main > section {
 }
 
 /* My Next target section  */
-.next-target-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
-}
-.next-target-header h1 {
-  color: rgb(13, 19, 33);
-  font-size: 32px;
-  font-weight: 800;
-}
-.next-target-header p {
-  color: rgb(13, 19, 33);
-  font-size: 16px;
-  font-weight: 400;
-  opacity: 0.7;
-  text-align: center;
-}
 
 .next-target-footer {
   display: flex;
@@ -180,3 +163,87 @@ main > section {
   font-weight: 700;
   color: black;
 }
+
+/* Why Web Development section  */
+.why-webdev-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  border-radius: 16px;
+  padding: 80px;
+  background: rgba(13, 19, 33, 0.02);
+}
+.why-webdev-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+
+.why-webdev-container .content-section {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.why-webdev-container .content-section h1 {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+}
+.why-webdev-container .content-section p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+}
+.why-webdev-container .content-section button {
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  padding: 12px 20px 12px 20px;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.why-webdev-card-1 {
+    padding: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 16px;
+    gap: 30px;
+    background: linear-gradient(
+      90deg,
+      rgb(255, 255, 255),
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+
+
+.why-webdev-card-2 {
+    padding: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 16px;
+    gap: 30px;
+    background: linear-gradient(
+      270deg,
+      rgb(255, 255, 255),
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+  
+  .why-webdev-card-3 {
+    padding: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 16px;
+    gap: 30px;
+    background: linear-gradient(
+      90deg,
+      rgb(255, 255, 255),
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
