@@ -5,3 +5,78 @@
   box-sizing: border-box;
   font-family: "Azeret Mono";
 }
+
+/* share css  */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+header > nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 30px 0px;
+  align-items: center;
+}
+header > nav > h1 {
+  font-size: 35px;
+  font-weight: 800;
+  opacity: 0.9;
+
+}
+header > nav > .btn > button {
+  padding: 17px 24px 17px 24px;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  opacity: 0.8;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+}
+main{
+    margin: 74px 0px;
+}
+
+.hero-section {
+  background-image: url(./../images/Hero-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero-section > .hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 652px;
+  gap: 25px;
+}
+.hero-section > .hero-container h1 {
+  color: rgb(13, 19, 33);
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+  opacity: 0.9;
+
+}
+.hero-section > .hero-container p {
+  opacity: 0.7;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.hero-section > .hero-container > .btn > button {
+  padding: 21px 24px 21px 24px;
+  border-radius: 8px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  background: rgb(13, 19, 33);
+}
+
+
