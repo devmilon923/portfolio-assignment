@@ -24,7 +24,6 @@ header > nav > h1 {
   font-size: 35px;
   font-weight: 800;
   opacity: 0.9;
-
 }
 header > nav > .btn > button {
   padding: 17px 24px 17px 24px;
@@ -36,8 +35,8 @@ header > nav > .btn > button {
   font-size: 20px;
   font-weight: 600;
 }
-main{
-    margin: 74px 0px;
+main {
+  margin: 74px 0px;
 }
 
 .hero-section {
@@ -60,7 +59,6 @@ main{
   font-weight: 800;
   text-align: center;
   opacity: 0.9;
-
 }
 .hero-section > .hero-container p {
   opacity: 0.7;
@@ -79,4 +77,60 @@ main{
   background: rgb(13, 19, 33);
 }
 
+/* My target section  */
+.current-target-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.current-target-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.current-target-header h1 {
+  color: rgb(13, 19, 33);
 
+  font-size: 32px;
+  font-weight: 800;
+}
+.current-target-header p {
+  color: rgb(13, 19, 33);
+
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+
+  text-align: center;
+}
+
+.current-target-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.card {
+  padding: 40px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 27px;
+}
+.card a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+}
+.html-card {
+  background: rgba(255, 76, 30, 0.05);
+}
+.css-card {
+  background: rgba(0, 76, 232, 0.05);
+}
+.js-card {
+  background: rgba(255, 223, 0, 0.05);
+}
