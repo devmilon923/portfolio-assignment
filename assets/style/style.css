@@ -173,12 +173,11 @@ main > section {
   padding: 80px;
   background: rgba(13, 19, 33, 0.02);
 }
-.why-webdev-footer{
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
+.why-webdev-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
-
 
 .why-webdev-container .content-section {
   display: flex;
@@ -206,44 +205,53 @@ main > section {
 }
 
 .why-webdev-card-1 {
-    padding: 48px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 16px;
-    gap: 30px;
-    background: linear-gradient(
-      90deg,
-      rgb(255, 255, 255),
-      rgba(255, 255, 255, 0) 100%
-    );
-  }
-
+  padding: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 16px;
+  gap: 30px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
 
 .why-webdev-card-2 {
-    padding: 48px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 16px;
-    gap: 30px;
-    background: linear-gradient(
-      270deg,
-      rgb(255, 255, 255),
-      rgba(255, 255, 255, 0) 100%
-    );
-  }
-  
-  .why-webdev-card-3 {
-    padding: 48px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 16px;
-    gap: 30px;
-    background: linear-gradient(
-      90deg,
-      rgb(255, 255, 255),
-      rgba(255, 255, 255, 0) 100%
-    );
-  }
+  padding: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 16px;
+  gap: 30px;
+  background: linear-gradient(
+    270deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.why-webdev-card-3 {
+  padding: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 16px;
+  gap: 30px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+/* Inspiration sections  */
+.inspiration-container {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.inspiration-footer {
+  height: 614px;
+}
